@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #[em My Collection], where you can manage my collection of music.
+
+
+  h1 Information
+
+  if error
+    p Error information.
+  else
+
+    p My collection has:
+
+    ul
+      li #[strong Music:] !{data.book_count}
+      li #[strong Performer:] !{data.author_count}
+      li #[strong Genres:] !{data.genre_count}
