@@ -1,3 +1,6 @@
 My project video can be found in file: 
 
 FullStack.mp4
+
+Video file can be downloaded and watched by clicking video file 
+and then clicking download button rigth upper corner of the page. 
